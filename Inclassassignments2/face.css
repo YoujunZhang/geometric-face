@@ -1,0 +1,116 @@
+
+body{
+    margin: 0;
+}
+.container-sky{
+    background-color: purple;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+/* .ground-grass{
+    background-color: wheat;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+} */
+
+
+.hair 
+ 
+{ 
+        position: absolute; 
+        top: 40%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        height: 300px; 
+        width: 400px; 
+        border-radius: 150px 150px 0 0; 
+        background-color: rgb(48, 17, 121); 
+    } 
+
+
+
+.object-house{
+    /* background-color: white; */
+    background-image: linear-gradient(rgb(255, 219, 204),pink);
+    width: 15%;
+    height: 27%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 60px;
+}
+    
+    
+/* .object-window{
+        background-color: lightblue;
+        position: absolute;
+        border-radius: 10px;
+        width: 50%;
+        height: 50%;
+        top: 20px;
+        left: 20px;
+      
+    
+    } */
+
+
+
+/* .window-panel{
+    height: 80%;
+    width: 50%;
+    position: absolute;
+    top: 5;
+    border-right: 2px solid rgb(255, 255, 255);
+    /* box-shadow: 10px 50px 50px purple; */
+/* } */ 
+
+/* .window-panel:hover{
+    background-color: purple;
+    opacity: 0.5;
+    box-shadow: 10px 50px 50px purple;
+} */
+
+.object-door{
+    background-color: rgb(22, 9, 97);
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    bottom: 65px;
+    right: 40px;
+    border-radius: 100px;
+
+}
+
+
+
+.door{
+    background-color:rgb(22, 9, 97);
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    bottom: 65px;
+    left: 40px;
+    border-radius: 100px;
+
+}
+
+
+
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: #7e7eff;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    border-radius: 50%;
+    /* display: inline-block; */
+  }
+
+  
